@@ -1,0 +1,36 @@
+h1, h2 {
+  text-align: center;
+}
+
+.board, .game-over {
+  margin: 30px auto;
+  width: 440px;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+
+.cell {
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: solid black 1px;
+  background-color: lightgrey;
+}
+
+.snake {
+  background-color: green;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.apple {
+  background-color: red;
+}
+

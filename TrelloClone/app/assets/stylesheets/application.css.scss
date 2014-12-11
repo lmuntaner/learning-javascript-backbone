@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require jquery.ui.all
+ *= require_tree .
+ */
+
+@import "bootstrap";
+@import "font-awesome";
+
+// Boards Index Page
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  font-style: none;
+}
+
+.boards>li {
+  width: 25%;
+  float: left;
+  position: relative;
+  margin: 12px;
+}
+
+.boards>li a {
+  display: block;
+  height: 100px;
+  padding: 12px;
+  background-color: #23719F;
+  border-radius: 3px;
+}
+
+.boards>li h4 {
+  color: #fff;
+  margin: 0;
+}
+
+.boards > li a:hover {
+  background-color: #3d667c;
+  cursor: pointer;
+}
+
+.board-tooltip + .tooltip > .tooltip-inner {
+  background-color: #777;
+//  border-color: #f8f8f8;
+  color: #fff;
+}
+
+.board-tooltip + .tooltip > .tooltip-arrow {
+  border-color: #777 transparent;
+}
+
+// Board Show Page
+
+.lists>li {
+  width: 25%;
+  float: left;
+  position: relative;
+  margin: 12px;
+}
+
+.list-show {
+  height: 500px;
+  background-color: #e3e3e3;
+  border-radius: 3px;
+}
+
+.list-show h4 {
+  text-align: center;
+  padding-top: 18px;
+  margin-bottom: 24px;
+}
+
+ul.cards {
+  min-height: 100px;
+  margin: 12px;
+}
+
+.card-item-show p {
+  margin: 0;
+}
+
+.card-item-show {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+.board {
+  margin: 30px auto;
+  width: 300px;
+  border: solid black 2px;
+}
+
+.cell {
+  float: left;
+  width: 98px;
+  height: 98px;
+  border: solid black 1px;
+}
+
+.cell:hover {
+  background-color: yellow;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

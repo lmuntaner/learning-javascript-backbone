@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+
+.board {
+  margin: 30px auto;
+  width: 900px;
+}
+
+.pile {
+  float: left;
+  width: 275px;
+  height: 200px;
+  border: solid black 1px;
+}
+
+.disc {
+  margin: 0 auto;
+  height: 65px;
+
+}
+
+#disc1 {
+  width: 75px;
+  background-color: yellow;
+}
+
+#disc2 {
+  width: 150px;
+  background-color: blue;
+}
+
+#disc3 {
+  width: 250px;
+  background-color: red;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
